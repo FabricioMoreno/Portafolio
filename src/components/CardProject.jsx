@@ -27,8 +27,8 @@ function CardProject({title,description,linkGithub,linkWebsite,img}) {
           <h2>{title}</h2>
           <p>{description}</p>
           <Buttons>
-            <a href={linkGithub}>Ver código</a>
-            <a href={linkWebsite}>Ver demo</a>
+            <a href={linkGithub} target="_blank">Ver código</a>
+            <a href={linkWebsite} target="_blank">Ver demo</a>
           </Buttons>
         </Info>
     </Card>
