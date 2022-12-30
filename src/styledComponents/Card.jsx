@@ -12,7 +12,7 @@ import "lightgallery/css/lg-thumbnail.css";
 
 const Card = styled.div`
   max-width: 30rem;
-  box-shadow: 10px 8px 5px rgba(0,0,0,0.3);
+  box-shadow: 10px 8px 5px rgba(0,0,0,0.3), inset 0 0 5px rgba(0,0,0,0.3);
     margin-bottom: 4rem;
 `;
 
@@ -56,6 +56,8 @@ const Image = styled.img`
 const Info = styled.div`
     padding-bottom: 2rem;
     font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     h2{
         color: ${colors.secondary};
@@ -65,7 +67,10 @@ const Info = styled.div`
         margin-bottom: 1.2rem;
     }
     p{
-        line-height: 1.6rem;
+        line-height: 2.6rem;
+        height: 11.5rem;
+        display: flex;
+        align-items: center;
     }
 `;
 const Buttons = styled.div`
