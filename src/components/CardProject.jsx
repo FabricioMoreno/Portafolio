@@ -2,6 +2,7 @@ import React from 'react'
 
 import {Card, CardImage, Link, Image,Info, Buttons,Lay} from "../styledComponents/Card"
 import LightGallery from 'lightgallery/react';
+import { cardVariants } from '../assets/animations';
 
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
@@ -9,8 +10,11 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import eyeImg from "../images/eye.svg"
 
 function CardProject({title,description,linkGithub,linkWebsite,img}) {
+
   return (
-    <Card>
+    <Card
+      variants={cardVariants}
+    >
       <CardImage
       speed={500}
       plugins={[lgThumbnail, lgZoom]}

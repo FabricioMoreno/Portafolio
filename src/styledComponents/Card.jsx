@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { device, fonts, colors } from './config'
-
+import {colors } from './config'
+import {motion} from "framer-motion"
 
 import LightGallery from "lightgallery/react";
 
@@ -10,7 +10,8 @@ import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 
-const Card = styled.div`
+
+const Card = styled(motion.div)`
   max-width: 30rem;
   box-shadow: 10px 8px 5px rgba(0,0,0,0.3), inset 0 0 5px rgba(0,0,0,0.3);
     margin-bottom: 4rem;
