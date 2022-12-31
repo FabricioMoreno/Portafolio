@@ -20,6 +20,9 @@ function CardProject({title,description,linkGithub,linkWebsite,img}) {
       plugins={[lgThumbnail, lgZoom]}
       download={false}
       counter={false}
+      mobileSettings={
+        {showCloseIcon: true}
+      }
       >
         <Link href={img} data-html>
           <Image src={img}/>
