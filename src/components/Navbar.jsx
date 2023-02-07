@@ -36,6 +36,12 @@ const Navbar = () => {
               
             </ItemLink>
           </li>
+          <li>
+            <ItemLink  smooth to="/#5">
+              Contacto
+              
+            </ItemLink>
+          </li>
         </List>
       </Navigation>
     </>

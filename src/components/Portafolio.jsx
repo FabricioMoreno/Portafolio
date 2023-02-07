@@ -14,6 +14,7 @@ import projects from "../assets/projects";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
 import { cardsVariants, iconsVariants } from "../assets/animations";
+import ContactsLinks from "./ContactsLinks";
 
 const Portafolio = () => {
   const iconsImg = icons.map((icon, index) => (
@@ -95,6 +96,11 @@ const Portafolio = () => {
         >
           <CardsProjects>{projectsCards}</CardsProjects>
         </motion.div>
+      </Info>
+      
+      <Info id="5">
+        <Title>Contacto</Title>
+        <ContactsLinks/>
       </Info>
     </PortafolioInfo>
   );
