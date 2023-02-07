@@ -5,10 +5,6 @@ import retos from "../images/projects/retos.png"
 import qrCode from "../images/projects/qrCode.png"
 import toDoList from "../images/projects/toDoList.png"
 import forx from "../images/projects/forx.png"
-//import  from "../images/projects/cesarEncryption.png"
-//import  from "../images/projects/cesarEncryption.png"
-//import  from "../images/projects/cesarEncryption.png"
-//import  from "../images/projects/cesarEncryption.png"
 
 
 const projects = [
